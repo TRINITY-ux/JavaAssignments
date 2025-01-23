@@ -2,34 +2,16 @@ import java.util.Scanner;
 
 public class MO_calculating_areas {
 
-    /**
-     * Calculates the area of a circle.
-     *
-     * @param radius the radius of the circle
-     * @return the area of the circle
-     */
     public static double calculateArea(double radius) {
         return Math.PI * radius * radius;
     }
 
-    /**
-     * Calculates the area of a rectangle.
-     *
-     * @param length the length of the rectangle
-     * @param width  the width of the rectangle
-     * @return the area of the rectangle
-     */
+  
     public static double calculateArea(double length, double width) {
         return length * width;
     }
 
-    /**
-     * Calculates the area of a triangle.
-     *
-     * @param base   the base of the triangle
-     * @param height the height of the triangle
-     * @return the area of the triangle
-     */
+
     public static double calculateAreas(double base, double height) {
         return 0.5 * base * height;
     }
